@@ -5,61 +5,51 @@
     font-family: "Lobster"; 
     color:="white";
    }
-</style>
-<style>
-.button {
-  display: inline-block;
-  border-radius: 12px;
-  background-color: #00FFFF;
-  border: none;
-  color: #000000;
-  text-align: right;
-  font-size: 28px;
-  padding: 18px;
-  width: 200px;
-  transition: all 0.5s;
-  cursor: pointer;
-  margin: 5px;
-}
-
-.button span {
-  cursor: pointer;
-  display: inline-block;
-  position: relative;
-  transition: 0.5s;
-}
-
-.button span:after {
-  content: '\00bb';
-  position: absolute;
-  opacity: 0;
-  top: 0;
-  right: -20px;
-  transition: 0.5s;
-}
-
-.button:hover span {
-  padding-right: 25px;
-}
-
-.button:hover span:after {
-  opacity: 1;
-  right: 0;
-}
+  header {
+    background-color:#00FFFF;
+    height:200px
+  }
+.cubix {
+  float:left;
+  width:100%;
+  }
+nav {
+  width:60%;
+  float:right;
+  }
+nav ul {
+  float:right;
+  }
+nav ul li {
+  display:inline-block;
+  }
+nav ul li a {
+  color:#000000;
+  margin:40px;
+  }
 </style>
 <body style="background-color:black;">
-  <button class="button" style="vertical-align:middle"><span>Hover </span>
-  </button>
-<center>
+  <header>
+    <div class="cubix">
+    </div>
+  <nav> 
+   <ul>
+     <li> <a href="#">Home</a> </li>
+     <li> <a href="#">Cubes</a> </li>
+     <li> <a href="#">Contact us</a> </li>
+   </ul>
+  </nav>
+ <marquee>
+  <img src = "https://cdn.hipwallpaper.com/i/44/65/iEmK5A.jpg" height="10%" width="10%">
+ </marquee>
+</header>
+ <center>
   </br>
   </br>
   <img src = "https://lh3.googleusercontent.com/proxy/cVqT8VpCN-OS_tx86y4RLML3iO-G4o8E7Hq4cMG6lBzAnGHZSi-f5nTYfjDBecOH8Hin3lyVDtioXfuXU5Gj8uxmqofsKsEOV0CEgrXdcosnJtsrwaE9NkC2YE1UdGfGlej9cQ" height="50%" width="50%" align="middle">
   </br>
   </br>
   </center>
-<marquee>
-  <img src = "https://cdn.hipwallpaper.com/i/44/65/iEmK5A.jpg" height="10%" width="10%">
-</marquee>
 </body>
 </head>
 </html> 
